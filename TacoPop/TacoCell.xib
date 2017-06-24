@@ -24,9 +24,13 @@
                             <constraint firstAttribute="height" constant="190.5" id="O91-1d-KYh"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="vIs-OM-KYw">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="vIs-OM-KYw">
                         <rect key="frame" x="0.0" y="195.5" width="194" height="23.5"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23.5" id="jI1-Gp-gh1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -46,7 +50,7 @@
                 <outlet property="tacoImage" destination="Jml-sz-Seq" id="Aoc-X7-3EU"/>
                 <outlet property="tacoLabel" destination="vIs-OM-KYw" id="THd-Yp-ILz"/>
             </connections>
-            <point key="canvasLocation" x="-34" y="30"/>
+            <point key="canvasLocation" x="-131" y="-27"/>
         </collectionViewCell>
     </objects>
     <resources>
