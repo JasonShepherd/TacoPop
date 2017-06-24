@@ -8,7 +8,14 @@
 
 import Foundation
 
+
+protocol DataServiceDelegate: class {
+    func loadDeliciousTacoData()
+}
+    
 class DataService{
+    
+    weak var delegate: DataServiceDelegate?
     static let instance = DataService()
     
     
@@ -40,6 +47,7 @@ class DataService{
         tacoArray.append(Taco(id: 15, productName: "Plain Flour Fish Taco", shellId: 1, proteinId: "Fish", condimentId: 2))
         tacoArray.append(Taco(id: 16, productName: "Plain Corn Fish Taco", shellId: 2, proteinId: "Fish", condimentId: 2))
         
+        delegate?.loadDeliciousTacoData()
         
     }
     

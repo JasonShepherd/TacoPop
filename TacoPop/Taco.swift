@@ -18,7 +18,7 @@ enum Protein: String{
     case Beef = "Beef"
     case Chicken = "Chicken"
     case Fish = "Fish"
-    case Brisket = " Brisket"
+    case Brisket = "Brisket"
 }
 
 enum Condiment: Int {

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1452E4E61EFE8A1C00140B59 /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452E4E51EFE8A1C00140B59 /* MutableCollection+Ext.swift */; };
+		1452E4E81EFE90F900140B59 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452E4E71EFE90F900140B59 /* Shakeable.swift */; };
+		14A87E501EFDE43F008F8F46 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A87E4F1EFDE43F008F8F46 /* ReusableView.swift */; };
+		14A87E521EFDE56A008F8F46 /* NIbLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A87E511EFDE56A008F8F46 /* NIbLoadableView.swift */; };
+		14A87E561EFDF753008F8F46 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A87E551EFDF753008F8F46 /* UICollectionView+Ext.swift */; };
+		14CC00FB1EFC7005007B114E /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC00F91EFC7005007B114E /* TacoCell.swift */; };
+		14CC00FC1EFC7005007B114E /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CC00FA1EFC7005007B114E /* TacoCell.xib */; };
 		14D2F0F61EF6B99D00CA8364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D2F0F51EF6B99D00CA8364 /* AppDelegate.swift */; };
 		14D2F0FB1EF6B99D00CA8364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D2F0F91EF6B99D00CA8364 /* Main.storyboard */; };
 		14D2F0FD1EF6B99D00CA8364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D2F0FC1EF6B99D00CA8364 /* Assets.xcassets */; };
@@ -30,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1452E4E51EFE8A1C00140B59 /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		1452E4E71EFE90F900140B59 /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
+		14A87E4F1EFDE43F008F8F46 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		14A87E511EFDE56A008F8F46 /* NIbLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NIbLoadableView.swift; sourceTree = "<group>"; };
+		14A87E551EFDF753008F8F46 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		14CC00F91EFC7005007B114E /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
+		14CC00FA1EFC7005007B114E /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
 		14D2F0F21EF6B99D00CA8364 /* TacoPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D2F0F51EF6B99D00CA8364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14D2F0FA1EF6B99D00CA8364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,6 +133,8 @@
 				14D2F0F91EF6B99D00CA8364 /* Main.storyboard */,
 				14D2F0FE1EF6B99D00CA8364 /* LaunchScreen.storyboard */,
 				14D2F1231EF6C2AA00CA8364 /* HeaderView.swift */,
+				14CC00F91EFC7005007B114E /* TacoCell.swift */,
+				14CC00FA1EFC7005007B114E /* TacoCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -145,6 +161,9 @@
 			isa = PBXGroup;
 			children = (
 				14D2F1211EF6C0A300CA8364 /* DropShadow.swift */,
+				14A87E4F1EFDE43F008F8F46 /* ReusableView.swift */,
+				14A87E511EFDE56A008F8F46 /* NIbLoadableView.swift */,
+				1452E4E71EFE90F900140B59 /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -152,6 +171,8 @@
 		14D2F11E1EF6BA4000CA8364 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				14A87E551EFDF753008F8F46 /* UICollectionView+Ext.swift */,
+				1452E4E51EFE8A1C00140B59 /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -241,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CC00FC1EFC7005007B114E /* TacoCell.xib in Resources */,
 				14D2F1001EF6B99D00CA8364 /* LaunchScreen.storyboard in Resources */,
 				14D2F0FD1EF6B99D00CA8364 /* Assets.xcassets in Resources */,
 				14D2F0FB1EF6B99D00CA8364 /* Main.storyboard in Resources */,
@@ -261,11 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CC00FB1EFC7005007B114E /* TacoCell.swift in Sources */,
+				1452E4E61EFE8A1C00140B59 /* MutableCollection+Ext.swift in Sources */,
 				14D2F0F61EF6B99D00CA8364 /* AppDelegate.swift in Sources */,
+				14A87E521EFDE56A008F8F46 /* NIbLoadableView.swift in Sources */,
 				14D2F1221EF6C0A300CA8364 /* DropShadow.swift in Sources */,
+				14A87E561EFDF753008F8F46 /* UICollectionView+Ext.swift in Sources */,
+				14A87E501EFDE43F008F8F46 /* ReusableView.swift in Sources */,
 				14D2F1201EF6BABC00CA8364 /* MainVC.swift in Sources */,
 				14D2F1281EF6EAB400CA8364 /* DataService.swift in Sources */,
 				14D2F1261EF6C55E00CA8364 /* Taco.swift in Sources */,
+				1452E4E81EFE90F900140B59 /* Shakeable.swift in Sources */,
 				14D2F1241EF6C2AA00CA8364 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +506,7 @@
 				14D2F1111EF6B99D00CA8364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14D2F1121EF6B99D00CA8364 /* Build configuration list for PBXNativeTarget "TacoPopTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +515,7 @@
 				14D2F1141EF6B99D00CA8364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
